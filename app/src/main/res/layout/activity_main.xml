@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Botonera superior encadenada horizontalmente -->
+    <!--Botones de la parte superior central  -->
     <Button
         android:id="@+id/btnGandalf"
         android:layout_width="0dp"

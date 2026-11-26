@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        // Carga inicial automática sin añadir al historial de retroceso
         if (savedInstanceState == null) {
             cargarCronica(
                 heroe = "Gandalf el Gris",
@@ -29,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             )
         }
 
-        // Botones de la botonera superior
+        // Botones de la parte superior
         findViewById<Button>(R.id.btnGandalf).setOnClickListener {
             cargarCronica(
                 heroe = "Gandalf el Gris",
@@ -57,6 +56,8 @@ class MainActivity : AppCompatActivity() {
             )
         }
     }
+
+    //Funcion para cargar dicha cronica
 
     private fun cargarCronica(
         heroe: String,
